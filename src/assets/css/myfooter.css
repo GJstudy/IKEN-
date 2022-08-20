@@ -1,0 +1,70 @@
+.my-footer{
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+.footer-container{
+  width: 1250px;
+  margin: 0 auto;
+}
+.footer-container>ul{
+  display: flex;
+  justify-content: flex-start;
+}
+/* 左边 */
+.footer-left{
+  width: 225px;
+  margin-right: 30px;
+}
+.footer-left>.title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #111;
+  margin: 0 0 20px 0;
+}
+.footer-left>.detail{
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #484848;
+}
+.footer-left>.join-me{
+  display: block;
+  width: 200px;
+  line-height: 45px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 50px;
+  user-select: none;
+}
+
+/* 右边 */
+.footer-right{
+  width: 100%;
+}
+.footer-right>ul{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-right dl>dt{
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111;
+  margin-bottom: 20px;
+}
+.footer-right dl>dd{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #484848;
+  margin-bottom: 10px;
+}

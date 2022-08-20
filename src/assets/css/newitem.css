@@ -1,0 +1,28 @@
+.pro-item1{
+  width: 1250px;
+  margin: 0 auto;
+}
+.pro-item1>h2{
+  text-align: center;
+  margin:20px 0 10px 0;
+  color: #ca5008;
+  font-size: 1.8rem;
+}
+.item_big{
+  display: flex;
+}
+.item_big_text{
+  width: 50%;
+  margin: 5%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+.item_big_img{
+  width: 50%;
+}
+.item_big_img>img{
+  display: block;
+  width: 600px;
+  height: 600px;
+}

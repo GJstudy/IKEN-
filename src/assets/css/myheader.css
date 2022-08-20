@@ -1,0 +1,54 @@
+.my-header{
+  background-color: #fff;
+  width: 1250px;
+  line-height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+/* 左边 */
+.header-left{
+  display: flex;
+}
+/* logo */
+.header-left img{
+  width: 60px;
+  height: 30px;
+  line-height: 50px;
+  margin:20px 20px 0 0;
+}
+/* 列表 */
+.header-left>ul{
+  display: flex;
+}
+.header-left>ul>li{
+  color: #111135;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 0 10px;
+  user-select: none;
+  cursor:pointer;
+}
+.header-left>ul>li>a{
+  color:black;
+}
+.header-left>ul>li>a:focus{
+  font-size: 20px;
+}
+.header-left>ul>li{
+  border-bottom: 3px solid white;
+}
+.header-left>ul>li:hover{
+  border-bottom: 3px solid #0058a3;
+}
+/* 右边 */
+.header-right>a>img{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-left:10px ;
+  vertical-align: middle;
+  cursor: pointer;
+}

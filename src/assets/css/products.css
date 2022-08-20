@@ -1,0 +1,9 @@
+.p{
+  width: 1250px;
+  margin: 0 auto;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}

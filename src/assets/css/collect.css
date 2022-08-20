@@ -1,0 +1,30 @@
+.collect{
+  width: 1250px;
+  margin: 0 auto;
+}
+.collect>h2:first-child{
+  text-align: center;
+  margin: 20px 0;
+}
+.collect-null{
+height: 400px;
+text-align: center;
+padding-top: 100px;
+}
+.collect-null>p{
+  font-size: 1.2rem;
+  color: #929292;
+}
+.collect-null>button{
+  width: 150px;
+  line-height: 50px;
+  border-radius: 50px;
+  background: black;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.collect-show{
+  display: flex;
+  flex-wrap: wrap;
+}
